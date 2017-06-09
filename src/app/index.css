@@ -1,8 +1,22 @@
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url("/assets/fonts/CircularStd-Book.otf");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("/assets/fonts/Montserrat-Light.ttf");
+}
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+.font-Circular{
+  font-family: "CircularStd-Book";
+}
+.font-Monserrat{
+  font-family: "Montserrat-Light";
 }
 
 .thumbnail {
@@ -73,4 +87,16 @@ a:active {
 }
 .main-text{
   font-size: 25px;
+}
+@media only screen and (max-width: 800px) {
+  .img-logo{
+    margin-top: 0px;
+    }
+    .main-text{
+      font-size: 20px;
+    }
+    .buttons-responsive{
+      margin-top: -20px;
+      padding-left: 36px;
+    }
 }
