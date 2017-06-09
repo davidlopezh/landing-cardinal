@@ -88,7 +88,7 @@ a:active {
 .main-text{
   font-size: 25px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 767px) {
   .img-logo{
     margin-top: 0px;
     }
@@ -98,5 +98,29 @@ a:active {
     .buttons-responsive{
       margin-top: -20px;
       padding-left: 36px;
+    }
+}
+@media only screen and (min-width: 800) {
+  .img-logo{
+    margin-top: 0px;
+    }
+    .main-text{
+      font-size: 20px;
+    }
+    .buttons-responsive{
+      margin-top: -20px;
+      padding-left: 36px;
+    }
+}
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .col-lg-4{
+      width: 50%;
+    }
+    .font-size--ipad{
+      font-size: 90px;
     }
 }
